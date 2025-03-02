@@ -345,6 +345,7 @@ body{
 @media (min-width:320px) {
     .story__reel{
         display: none;
+      
     }
 }
 
