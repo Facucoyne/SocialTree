@@ -365,6 +365,6 @@ body{
 
 @media (max-width: 375px){
     #disqus_thread{
-        width: 100%;
+        width: 95%;
     }
 }
