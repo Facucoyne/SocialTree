@@ -116,19 +116,7 @@
                 <div class="status__updater__options">
                     <div class="status__updater__option">
                         <!--aca va el <h2 class="TextComentary"> ¿Que Estás Pensando?</h2>-->
-                        <div id="disqus_thread"></div>
-                        <script>
-                          
-                            (function() { // DON'T EDIT BELOW THIS LINE
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://https-socialtreedemo-netlify-app.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                            })();
-                        </script>
-                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-           
-                   </div>
+                      
                     </div>
                     
                 </div>
@@ -142,7 +130,7 @@
                     </div>
                 </div>
                 <div class="middle__text">
-                   
+                    <h2 class="TextComentary"> ¿Que Estás Pensando?</h2>
                     
                 </div>
                 <div class="middle__image">
@@ -178,7 +166,19 @@
             </div>
              <!-- statuses ends-->
 
-       
+             <div id="disqus_thread"></div>
+             <script>
+               
+                 (function() { // DON'T EDIT BELOW THIS LINE
+                 var d = document, s = d.createElement('script');
+                 s.src = 'https://https-socialtreedemo-netlify-app.disqus.com/embed.js';
+                 s.setAttribute('data-timestamp', +new Date());
+                 (d.head || d.body).appendChild(s);
+                 })();
+             </script>
+             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
         <!-- feed ends -->
         <div style="flex: 0.33;" class="widgets">
             <div class="fb-page" data-href="" data-tabs="timeline" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Meta</a></blockquote></div>
