@@ -69,7 +69,7 @@ border-radius: 15px;
 }
 
 .header__option:hover  .material-icons{
-    color: #2e81f4;
+    color:#0f6027;
 }
 
 .header__option{
@@ -80,11 +80,11 @@ border-radius: 15px;
 }
 
 .header__option.active .material-icons{
-    color: #2e81f4;
+    color: #336241;
 }
 
 .header__option.active{
-    border-bottom: 4px solid #2e81f4;
+    border-bottom: 4px solid #1eb23e;
 }
 
 .header__option:hover{
