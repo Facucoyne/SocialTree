@@ -7,10 +7,11 @@
 }
 body{
     background-image: linear-gradient(rgba(6,7,15, 0.20),rgba(6,7,15, 0.20)), url(./images/Foto\ de\ Tobias\ Aeppli.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     width: 100%;
-    height: 100vh;
+    height: 200vh;
 }
 .TextoPrincipal{
     color: rgb(1, 26, 15);
