@@ -8,7 +8,7 @@
     width: 25%;
 }
 body{
-    background-image: linear-gradient(rgba(6,7,15, 0.35),rgba(6,7,15, 0.35)), url(./images/pexels-helen-alp-46790226-14525015.jpg);
+    background-image:  url(./images/PrincipalBanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
