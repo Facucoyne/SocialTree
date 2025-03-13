@@ -24,12 +24,16 @@ body{
 }
 
 #disqus_thread{
-width: 100%;
+width: 110%;
 background-color: #fff;
 border-radius: 15px;
 box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-background-image: url(./images/BannerBanner.jpg);
 
+
+}
+
+.imagen{
+    width: 100%;
 }
 .TextComentary{
     text-align: center;
